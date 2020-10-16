@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* font-family: 'VT323', monospace; */
+    /* font-family: 'VT323', monospace; */
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#myVideo {
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: sticky;
+    bottom: 0;
+    background: #F9ED00;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navi {
+    color: white;
+    list-style: none;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navi a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navi a:hover {
+    text-decoration: underline;
+}
+
+header div {
+    font-family: 'VT323';
+}
+
+.presentation {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.events {
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+}
+
+.carte{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.map {
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+}
+
+.contact {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.presentation div {
+    width: 95%;
+    height: 95%;
+    margin: 30px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+.presentation div p {
+    width: 50%;
+    height: 80%;
+    margin: 10px;
+    background-color: turquoise;
+}
+
+.events {
+    height: 95%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+.column {
+    height: 550px;
+    width: 350px;
+    background-color: violet;
+    margin: 30px;
+}
+
+.form {
+    background-color: #F9ED00 ;
+    height: 500px;
+}
+
+.pseudo {
+    margin: 20px 0 10px 5px;
+}
+
+.message {
+    margin: ;
+}
+
+.button {
+    #F9ED00
+}
