@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar Projet Le Loot</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 
@@ -13,7 +13,7 @@
     <header>
         <div>
             <video height="830px" autoplay muted loop id="myVideo">
-                <source src="img/Fichier_1.mp4" type="video/mp4">
+                <source src="assets/img/Fichier_1.mp4" type="video/mp4">
             </video>
             <div class="content">
                 <nav>
@@ -52,7 +52,7 @@
         </div>
     </header>
     <main>
-        <section class="presentation">
+        <!-- <section class="presentation">
             <div>
                 <h1>Présentation</h1>
                 <p>Caroussel</p>
@@ -103,25 +103,24 @@
         </section>
 
         <section class="contact">
-            <h1>Contact</h1>
-            <div>
-                <button>Boutton</button>
-            </div>
-        </section>
+        </section> -->
         <section>
-            <div><h1>Envoie nous un p'tit message</h1></div>
+            <div>
+                <h2>Envoie nous un p'tit message</h2>
+            </div>
             <div class="form">
                 <form>
-                  
-                        <div class="pseudo">
-                            <label for="pseudoinput">Nom :</label>
-                            <input type="text" name="name" id="pseudoinput" placeholder="Ton pseudo" autofocus required>
-                        </div>
-                        <div class="message">
-                            <label for="messageinput"></label>
-                            <textarea  name="messageinput" id="messageinput" rows="10" cols="150" required placeholder="Ton p'tit message" ></textarea>
-                            <input class="button" type="submit" value="Envoye ici">
-                        </div>
+
+                    <div class="pseudo">
+                        <label for="pseudoinput"></label>
+                        <input type="text" name="name" id="pseudoinput" placeholder="Ton pseudo" autofocus required>
+                    </div>
+                    <div class="message">
+                        <label for="messageinput"></label>
+                        <textarea name="messageinput" id="messageinput" rows="15" cols="203" required
+                            placeholder="Ton p'tit message"></textarea>
+                    </div>
+                    <div><input class="button" type="submit" value="Envoye ici !"></div>
 
                 </form>
             </div>
@@ -131,8 +130,19 @@
 
 
     <footer>
-        <div>Liens</div>
-        <div>picto réseau</div>
+        <div class="lien">
+            <ul>
+                <li>Présentation</li>
+                <li>Carte</li>
+                <li>Evènements</li>
+                <li>Maps</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="reseau">
+            <a href="http://facebook.com/"> <img src="../Le-loot/assets/img/facebook.png" height="70px"  width="70px" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"> <img src="../Le-loot/assets/img/instagram.png" height="70px" width="70px" alt="Instagram"></a>
+        </div>
     </footer>
 
 </body>
