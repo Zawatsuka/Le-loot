@@ -1,0 +1,104 @@
+body html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+
+#cadridge {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+#col1 {
+    width: 33%;
+    height: 100%;
+}
+
+#col2 {
+    width: 33%;
+    height: 100%;
+}
+
+#col3 {
+    width: 33%;
+    height: 100%;
+}
+
+
+
+
+#skymap {
+
+    height: 100%;
+    width:100%;
+    background-color: blueviolet;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    text-align: center;
+
+}
+
+#sky {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+
+
+}
+
+#gin {
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+}
+
+#logo {
+    height: 100%;
+    width: 33%;
+    background-image: url(/assets/img/logo.png);
+}
+
+#giveup {
+
+    background-color: darkgoldenrod;
+    height: 100%;
+    width:100%;
+
+}
+
+#dio {
+   
+    height: 33%;
+    width: 33%;
+}
+
+#rhum {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+#kra {
+  background-image: url(/assets/img/kratos_vodka.png);
+    height: 100%;
+    width: 100%;
+}
+
+#vodka {
+    background-color: chocolate;
+    height: 100%;
+    width: 100%;
+}
