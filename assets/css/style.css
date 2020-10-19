@@ -1,13 +1,24 @@
-body html {
+html {
     height: 100%;
     width: 100%;
-    margin: 0%;
-    padding: 0%;
+
 }
 
-ul {
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.base {
+    font-size: 20pt;
+
+    font-family: 'VT323', monospace;
+}
+
+.cocktail {
+    margin: 0;
     list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'VT323', monospace;
 }
 
@@ -16,89 +27,72 @@ ul {
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: blue;
+    background-color: #04587B;
 }
 
 #col1 {
-    width: 33%;
-    height: 100%;
+    margin: 1%;
+    width: 33.33%;
+    height: 95%;
+    background-color: #F9ED00;
+    text-align: center;
+  
 }
 
 #col2 {
-    width: 33%;
-    height: 100%;
+    margin: 1%;
+    width: 33.33%;
+    height: 95%;
+    background-color: #F9ED00;
+    text-align: center;
 }
 
 #col3 {
-    width: 33%;
-    height: 100%;
+   
+    margin: 1%;
+    width: 33.33%;
+    height: 95%;
+    background-color: #F9ED00;
+    text-align: center;
 }
 
 
 
 
 #skymap {
-
-    height: 100%;
-    width:100%;
-    background-color: blueviolet;
-    font-family: 'Open Sans', sans-serif;
+margin: 3%;
+padding: 3%;
+margin-left: 0%;
+margin-top: 0%;
+    height: 5%;
+    width: 94%;
+    background-color: #04587B;
     font-family: 'VT323', monospace;
     text-align: center;
-
+    font-size: 35pt;
 }
 
-#sky {
-    height: 100%;
-    width: 100%;
-    background-color: green;
-    text-align: center;
+.mangas {
+    max-width:96%;
+    max-height: 96%;
 }
 
-
+.dio {
+    max-width: 68%;
+    max-height: 68%;
 }
 
-#gin {
-    height: 100%;
-    width: 100%;
-    background-color: teal;
+.logo {
+    max-width: 50%;
+    max-height: 50%;
 }
 
-#logo {
-    height: 100%;
-    width: 33%;
-    background-image: url(/assets/img/logo.png);
+.kratos {
+    max-width: 88%;
+    max-height: 88%;
 }
 
-#giveup {
-
-    background-color: darkgoldenrod;
-    height: 100%;
-    width:100%;
-
-}
-
-#dio {
-   
-    height: 33%;
-    width: 33%;
-}
-
-#rhum {
-    height: 100%;
-    width: 100%;
-    background-color: gray;
-    text-align: center;
-}
-
-#kra {
-  background-image: url(/assets/img/kratos_vodka.png);
-    height: 100%;
-    width: 100%;
-}
-
-#vodka {
-    background-color: chocolate;
-    height: 100%;
-    width: 100%;
+ li{
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
